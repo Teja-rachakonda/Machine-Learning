@@ -1,0 +1,298 @@
+Applications of Probability in ML:--
+
+
+Modeling Uncertainty: Quantify uncertainty in predictions (e.g., confidence intervals).
+Data Generation: Simulate data based on probabilistic distributions.
+Feature Selection: Use mutual information and entropy.
+Regularization: Bayesian inference helps in understanding regularization techniques like L1 (Lasso) and L2 (Ridge).
+
+
+Mutually Exclusive Events:--
+
+
+Definition: Two events are mutually exclusive (or disjoint) if they cannot occur at the same time. In other words, the occurrence of one event excludes the possibility of the other.
+Example: When flipping a coin, the events "heads" and "tails" are mutually exclusive.
+Mathematically:
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+=
+0
+P(A∩B)=0
+where 
+𝐴
+A and 
+𝐵
+B are mutually exclusive events.
+Non-Mutually Exclusive Events
+Definition: Two events are non-mutually exclusive if they can occur at the same time. The occurrence of one event does not exclude the possibility of the other.
+Example: Drawing a card from a deck and getting a red card (event 
+𝐴
+A) and a king (event 
+𝐵
+B) are non-mutually exclusive because you can draw the king of hearts or king of diamonds.
+Mathematically:
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+≠
+0
+P(A∩B)
+
+=0
+Additive Rule (Addition Rule of Probability)
+Used to find the probability that at least one of two events will occur.
+For Mutually Exclusive Events:
+𝑃
+(
+𝐴
+∪
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
++
+𝑃
+(
+𝐵
+)
+P(A∪B)=P(A)+P(B)
+Since 
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+=
+0
+P(A∩B)=0, there is no overlap between 
+𝐴
+A and 
+𝐵
+B.
+
+For Non-Mutually Exclusive Events:
+𝑃
+(
+𝐴
+∪
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
++
+𝑃
+(
+𝐵
+)
+−
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+P(A∪B)=P(A)+P(B)−P(A∩B)
+The term 
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+P(A∩B) is subtracted to avoid double-counting the probability of both events occurring.
+
+Multiplicative Rule (Multiplication Rule of Probability)
+Used to find the probability that two events will both occur.
+For Independent Events:
+Definition: Two events 
+𝐴
+A and 
+𝐵
+B are independent if the occurrence of one does not affect the occurrence of the other.
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
+×
+𝑃
+(
+𝐵
+)
+P(A∩B)=P(A)×P(B)
+For Dependent Events:
+If 
+𝐴
+A and 
+𝐵
+B are dependent, the probability of both events occurring is the product of the probability of 
+𝐴
+A and the conditional probability of 
+𝐵
+B given 
+𝐴
+A:
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
+×
+𝑃
+(
+𝐵
+∣
+𝐴
+)
+P(A∩B)=P(A)×P(B∣A)
+𝑃
+(
+𝐵
+∣
+𝐴
+)
+P(B∣A) is the probability of 
+𝐵
+B occurring given that 
+𝐴
+A has occurred.
+Summary:
+Mutually Exclusive Events: Cannot occur together; 
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+=
+0
+P(A∩B)=0.
+Non-Mutually Exclusive Events: Can occur together; 
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+≠
+0
+P(A∩B)
+
+=0.
+Additive Rule: For calculating the probability of either 
+𝐴
+A or 
+𝐵
+B happening.
+Mutually Exclusive: 
+𝑃
+(
+𝐴
+∪
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
++
+𝑃
+(
+𝐵
+)
+P(A∪B)=P(A)+P(B).
+Non-Mutually Exclusive: 
+𝑃
+(
+𝐴
+∪
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
++
+𝑃
+(
+𝐵
+)
+−
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+P(A∪B)=P(A)+P(B)−P(A∩B).
+Multiplicative Rule: For calculating the probability of both 
+𝐴
+A and 
+𝐵
+B happening.
+Independent Events: 
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
+×
+𝑃
+(
+𝐵
+)
+P(A∩B)=P(A)×P(B).
+Dependent Events: 
+𝑃
+(
+𝐴
+∩
+𝐵
+)
+=
+𝑃
+(
+𝐴
+)
+×
+𝑃
+(
+𝐵
+∣
+𝐴
+)
+P(A∩B)=P(A)×P(B∣A).
