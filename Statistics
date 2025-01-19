@@ -1,4 +1,4 @@
-# Descriptive Statistics Learning Insights
+1) Descriptive Statistics Learning Insights
 
 ## Overview
 I recently watched **Session 38 - Descriptive Statistics Part 1** from the CampusX YouTube channel as part of the DSMP 2023 series. Here are my key learnings:
@@ -21,10 +21,49 @@ This session has given me a solid foundation in descriptive statistics, which is
 - Apply these concepts in a project to solidify my understanding.
 
 ## Resources
-- [CampusX YouTube Channel](https://www.youtube.com/c/CampusXOfficial)
-- [Session 38 - Descriptive Statistics Part 1](#) *(Link to the video)*
+- [CampusX YouTube Channel]
 
 ## Connect with Me
 Feel free to connect with me for further discussions or collaborations!
 
+________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________
+
+2)Descriptive Statistics Learning Insights - Part 2
+
+## Overview
+Continuing my journey with the **DSMP 2023** series from CampusX, I watched **Session 39 - Descriptive Statistics Part 2**. Here’s what I learned:
+
+### Key Concepts Covered:
+- **Quantiles and Percentiles**:
+  - **Quantiles**: Points dividing the data into equal-sized intervals.
+  - **Percentiles**: Indicates the value below which a given percentage of observations fall.
+- **5-Number Summary**:
+  - Consists of Minimum, First Quartile (Q1), Median (Q2), Third Quartile (Q3), and Maximum.
+- **Boxplot**:
+  - A graphical representation of the 5-number summary.
+  - Useful for identifying outliers and understanding the distribution of data.
+- **Scatter Plot**:
+  - Displays the relationship between two variables.
+  - Helps in identifying correlations and patterns.
+- **Covariance**:
+  - Measures how two variables change together.
+  - Positive covariance indicates that variables increase together, and negative indicates opposite directions.
+- **Correlation**:
+  - Standardized form of covariance.
+  - Ranges from -1 to 1, indicating the strength and direction of the relationship.
+
+### Insights and Reflections:
+- Understanding the graphical representation through boxplots and scatter plots has deepened my grasp of data visualization.
+- Learning about covariance and correlation is crucial for determining relationships between variables, especially in predictive modeling.
+
+## Next Steps
+- Explore more visualization techniques.
+- Practice calculating and interpreting covariance and correlation in different datasets.
+
+## Resources
+- [CampusX YouTube Channel]
+
+## Connect with Me
+Let’s discuss more about data analysis and visualization!
 
